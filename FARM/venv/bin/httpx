@@ -1,4 +1,4 @@
-#!/home/mahi/webDev/fullstack_projects/FARM/venv/bin/python3
+#!/home/mahi/fullStack/FARM/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

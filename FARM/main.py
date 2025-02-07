@@ -1,4 +1,10 @@
+import os
+from dotenv import load_dotenv
+
 from fastapi import FastAPI
+
+load_dotenv()
+MONGO_URI = os.getenv("MONGO_URI")
 
 app = FastAPI()
 
