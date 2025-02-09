@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API_URL = "https://railway.com/project/13352e78-6df6-4f3e-ad87-6b6d606ee694"; // Update this with your actual FastAPI deployment URL
+const API_URL = "https://railway.com/project/13352e78-6df6-4f3e-ad87-6b6d606ee694"; 
 
 function App() {
   const [todos, setTodos] = useState([]);
