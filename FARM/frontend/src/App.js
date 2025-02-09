@@ -8,7 +8,6 @@ function App() {
   const [todos, setTodos] = useState([]);
   const [newTodo, setNewTodo] = useState("");
 
-  // Fetch todos from FastAPI
   useEffect(() => {
     fetchTodos();
   }, []);
@@ -27,7 +26,7 @@ function App() {
       try {
         await axios.post(`${API_URL}/todos`, { task: newTodo });
         setNewTodo("");
-        fetchTodos(); // Refresh list
+        fetchTodos(); 
       } catch (error) {
         console.error("Error adding todo:", error);
       }
