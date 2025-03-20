@@ -1,11 +1,18 @@
 import Navbar from "./components/Navbar";
+import { useAuthStore } from "./stores/authStore";
+
+import HomePage from "./pages/HomePage";
+import SignUpPage from "./pages/SignUpPage";
+import LoginPage from "./pages/LoginPage";
+import SettingsPage from "./pages/SettingsPage";
+import ProfilePage from "./pages/ProfilePage";
 
 import { Routes, Route } from "react-router-dom";
 
 const App = () => {
+  const {authUser} = useAuthStore();
   return (
     <div>
-      
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -13,7 +20,7 @@ const App = () => {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/settings" element={<SettingsPage />} />
         <Route path="/profile" element={<ProfilePage />} />
-
+      </Routes>
     </div>
   );
 };
