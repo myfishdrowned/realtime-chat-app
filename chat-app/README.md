@@ -39,6 +39,7 @@ CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 
 ### Frontend Setup
+```bash
 cd frontend
 npm install
 npm run dev
