@@ -1,6 +1,6 @@
 # 💬 Realtime Chat App
 
-A full-stack realtime chat application built with **React**, **Node.js**, **Express**, **Socket.IO**, **MongoDB**, and **Cloudinary**. Supports user authentication, image uploads, and real-time messaging.
+Hey everyone, here's a full-stack realtime chat application built with React, Node.js, Express, Socket.IO, MongoDB, and Cloudinary. I'm still working on updating this and hopefully should have full build and deploy instructions out soon!
 
 ---
 
