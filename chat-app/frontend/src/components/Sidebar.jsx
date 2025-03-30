@@ -36,7 +36,7 @@ const Sidebar = () => {
               onChange={(e) => setShowOnlineOnly(e.target.checked)}
               className="checkbox checkbox-sm"
             />
-            <span className="text-sm">Show online</span>
+            <span className="text-sm">Show online only</span>
           </label>
           <span className="text-xs text-zinc-500">({Math.max(0, (onlineUsers?.length || 0) - 1)} online)</span>
         </div>
