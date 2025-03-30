@@ -19,27 +19,16 @@ A full-stack realtime chat application built with **React**, **Node.js**, **Expr
 ## ⚙️ Getting Started
 
 ### 🧩 Prerequisites
-- Node.js (v18+ recommended)
-- MongoDB (local or Atlas)
-- Cloudinary account (for image uploads)
 
-### 🔧 Backend Setup
-```bash
-cd backend
-npm install
-npm run dev
+- Node.js (v18+ recommended)
+- MongoDB (local or [MongoDB Atlas](https://www.mongodb.com/cloud/atlas))
+- Cloudinary account (for image uploads)
 
 ---
 
-PORT=5002
-MONGO_URI=your_mongo_connection_string
-JWT_SECRET=your_jwt_secret
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
+## 🔧 Backend Setup
 
-### Frontend Setup
 ```bash
-cd frontend
+cd backend
 npm install
 npm run dev
